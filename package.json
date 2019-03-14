@@ -1,0 +1,30 @@
+{
+  "name": "cordova-app-crash",
+  "version": "0.0.1",
+  "description": "Cordova plugin to make custom exception on android / iOS on a ionic / Cordova app",
+  "cordova": {
+    "id": "cordova-custom-exception",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonsWayo/cordova-plugin-custom-exception.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "crash",
+    "ionic",
+    "crashlytics"
+  ],
+  "bugs": {
+    "url": "https://github.com/DonsWayo/cordova-plugin-custom-exception.git/issues"
+  },
+  "homepage": "https://github.com/AhsanAyaz/cordova-plugin-custom-exception#readme",
+  "author": "Juan Jose Carracedo",
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-custom-exception" version="0.0.1" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Exception</name>
+    <js-module name="Exception" src="www/Exception.js">
+        <clobbers target="cordova.plugins.Exception" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="config.xml">
+            <feature name="Exception">
+                <param name="android-package" value="com.exception.plugin.Exception" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/Exception.java" target-dir="src/" />
+    </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="Exception">
+                <param name="ios-package" value="Exception" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/Exception.m" />
+    </platform>
+</plugin>
